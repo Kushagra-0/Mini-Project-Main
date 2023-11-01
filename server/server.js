@@ -7,7 +7,6 @@ const mongoose = require('mongoose')
 const userRoute = require('./routes/users')
 const authRoute = require('./routes/auth')
 
-
 const PORT = process.env.PORT || 3500
 
 //MongoDB
