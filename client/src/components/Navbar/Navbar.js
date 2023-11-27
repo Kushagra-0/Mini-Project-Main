@@ -10,10 +10,25 @@ export default function NavBar() {
                     WELLNESS.IO
                 </Link>
             </div>
-            <nav>
-                <Link to='/meditation'>Meditation</Link>
-                <Link to='/login'>Login</Link>
-                <Link to='/register'>Register</Link>
+            <nav className="hidden md:flex gap-5 font-medium p-1 text-lg">
+                <Link 
+                    to='/meditation'
+                    className="hover:text-[#539165] transition-all cursor-pointer"
+                >
+                    Meditation
+                </Link>
+                <Link 
+                    to='/login'
+                    className="hover:text-[#539165] transition-all cursor-pointer"
+                >
+                    Login
+                </Link>
+                <Link 
+                    to='/register'
+                    className="hover:text-[#539165] transition-all cursor-pointer"
+                >
+                    Register
+                </Link>
             </nav>
         </div>
     </div>
