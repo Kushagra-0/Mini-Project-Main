@@ -1,0 +1,18 @@
+#navbar{
+  display: flex;
+  align-items: center;
+  height: 75px;
+  padding-top: 20px;
+  width: 100vw;
+  margin-left: -2.8%;
+}
+
+#options{
+  display: flex;
+  align-items: center;
+  padding-left: 30%;
+}
+
+#settings{
+  margin-left: auto;
+}
