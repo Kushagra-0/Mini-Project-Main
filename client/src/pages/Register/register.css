@@ -9,7 +9,7 @@
   
   .loginWrapper {
     width: 70%;
-    height: 70%;
+    height: 50%;
     display: flex;
   }
   
@@ -35,6 +35,7 @@
   .loginBox{
       height: 400px;
       padding: 20px;
+      margin-bottom: 20px;
       background-color: #fdf8ee;
       border-radius: 10px;
       display: flex;
@@ -76,8 +77,8 @@
       height: 50px;
       border-radius: 10px;
       border: none;
-      background-color: #15803d;
-      color: white;
+      /* background-color: #15803d; */
+      color: #15803d;
       font-size: 20px;
       font-weight: 500;
       cursor: pointer;
